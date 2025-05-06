@@ -41,7 +41,7 @@ const FooterV2 = () => {
                                             <Link to="/contact-us">Contact Us</Link>
                                         </li>
                                         <li>
-                                            <Link to="/careers">Career</Link>
+                                            <Link to="/careers">Careers</Link>
                                         </li>
                                         <li>
                                             <Link to="/partners">Partners</Link>

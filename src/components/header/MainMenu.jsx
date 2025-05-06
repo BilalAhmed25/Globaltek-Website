@@ -9,14 +9,14 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
                 <li className="dropdown">
                     <Link to="#" className="dropdown-toggle active" data-toggle="dropdown" onClick={toggleSubMenu}>services</Link>
                     <ul className="dropdown-menu">
-                        <li><Link to="/">Hardware Services</Link></li>
-                        <li><Link to="/home-2">Software Services</Link></li>
-                        <li><Link to="/home-3">Cloud Services</Link></li>
-                        <li><Link to="/home-4">Globally managed services</Link></li>
+                        <li><Link to="/hardware-services">Hardware Services</Link></li>
+                        <li><Link to="/software-services">Software Services</Link></li>
+                        <li><Link to="/cloud-services">Cloud Services</Link></li>
+                        <li><Link to="/globally-managed-services">Globally managed services</Link></li>
                     </ul>
                 </li>
-                <li><Link to="/contact-us">careers</Link></li>
-                <li><Link to="/contact-us">partners</Link></li>
+                <li><Link to="/careers">careers</Link></li>
+                <li><Link to="/partners">partners</Link></li>
                 <li><Link to="/contact-us">contact</Link></li>
 
                 {/* <li>

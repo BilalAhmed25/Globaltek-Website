@@ -38,19 +38,22 @@ const Routers = () => {
         <>
             <Routes>
                 <Route path='/' element={<Home1 />}></Route>
+                <Route path='/about-us' element={<AboutUsPage />}></Route>
+                <Route path='/careers' element={<AboutUsPage />}></Route>
+                <Route path='/contact-us' element={<ContactUsPage />}></Route>
+
+
                 <Route path='/home-2' element={<Home2 />}></Route>
                 <Route path='/home-3' element={<Home3 />}></Route>
                 <Route path='/home-4' element={<Home4 />}></Route>
                 <Route path='/home-5' element={<Home5 />}></Route>
 
-                <Route path='/about-us' element={<AboutUsPage />}></Route>
                 <Route path='/about-us-2' element={<AboutUs2Page />}></Route>
                 <Route path='/team' element={<TeamPage />}></Route>
                 <Route path='/team-2' element={<Team2Page />}></Route>
                 <Route path='/team-details/:id' element={<TeamDetailsPage />}></Route>
                 <Route path='/pricing' element={<PricingPage />}></Route>
                 <Route path='/faq' element={<FaqPage />}></Route>
-                <Route path='/contact-us' element={<ContactUsPage />}></Route>
 
                 <Route path='/project' element={<ProjectPage />}></Route>
                 <Route path='/project-2' element={<Project2Page />}></Route>
