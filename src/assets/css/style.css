@@ -1721,6 +1721,7 @@ p {
 	color: var(--white);
 	border: none;
 	background: var(--color-primary);
+	text-transform: none;
 }
 
 .color-style-two .btn.btn-theme {
