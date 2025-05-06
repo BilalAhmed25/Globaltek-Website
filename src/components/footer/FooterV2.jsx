@@ -22,7 +22,7 @@ const FooterV2 = () => {
                                     <ul className="contact-address">
                                         <li>
                                             <p>Our Location</p>
-                                            <h4>175 10h Street, Office 375 Berlin, Devolina 21562</h4>
+                                            <h5 className='text-muted'>3471 North Federal Highway Suite 305 – Fort Lauderdale, FL 33306</h5>
                                         </li>
                                     </ul>
                                 </div>
@@ -32,19 +32,19 @@ const FooterV2 = () => {
                                     <h4 className="widget-title">Quick Links</h4>
                                     <ul>
                                         <li>
-                                            <Link to="/about-us">Company Profile</Link>
+                                            <Link to="/">Home</Link>
                                         </li>
                                         <li>
-                                            <Link to="/contact-us">Help Center</Link>
+                                            <Link to="/about-us">About Us</Link>
                                         </li>
                                         <li>
-                                            <Link to="/about-us">Career</Link>
+                                            <Link to="/contact-us">Contact Us</Link>
                                         </li>
                                         <li>
-                                            <Link to="/pricing">Plans &; Pricing</Link>
+                                            <Link to="/careers">Career</Link>
                                         </li>
                                         <li>
-                                            <Link to="/blog-single-with-sidebar/1">News &; Blog</Link>
+                                            <Link to="/partners">Partners</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -54,19 +54,16 @@ const FooterV2 = () => {
                                     <h4 className="widget-title">Our Services</h4>
                                     <ul>
                                         <li>
-                                            <Link to="/services-details/1">Manage investment</Link>
+                                            <Link to="/hardware-services">Harware Services</Link>
                                         </li>
                                         <li>
-                                            <Link to="/services-details/1">Email Marketing</Link>
+                                            <Link to="/software-services">Software Services</Link>
                                         </li>
                                         <li>
-                                            <Link to="/services-details/1">Growth Hacking</Link>
+                                            <Link to="/cloud-services">Cloud Services</Link>
                                         </li>
                                         <li>
-                                            <Link to="/services-details/1">Lead Generation</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/services-details/1">Offline SEO</Link>
+                                            <Link to="/globally-managed-services">Globally Managed Services</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -88,7 +85,7 @@ const FooterV2 = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
-                                <p>&copy; Copyright {(new Date().getFullYear())}. All Rights Reserved by <a href="https://themeforest.net/user/validthemes" target='_blank'>validthemes</a></p>
+                                <p>&copy; Copyright {(new Date().getFullYear())}. All Rights Reserved by <a href="/" target='_blank'>Globaltek International</a>.</p>
                             </div>
                             <div className="col-lg-6 text-end">
                                 <ul className="link-list">

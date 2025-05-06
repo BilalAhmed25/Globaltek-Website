@@ -11,18 +11,14 @@ const FeatureV1 = () => {
                                 <div className="feature-style-one-info">
                                     <div className="fun-fact">
                                         <div className="counter">
-                                            <div className="timer"><CountUp end={68} enableScrollSpy={true} /></div>
-                                            <div className="operator">K</div>
+                                            <div className="timer"><CountUp end={2025} enableScrollSpy={true} /></div>
+                                            <div className="operator">.</div>
                                         </div>
                                     </div>
-                                    <h3>Customers are served in our conusting services</h3>
-                                    <ul className="list-style-one mt-25">
-                                        <li>Growth Method Analysis</li>
-                                        <li>Business Management consultation</li>
-                                        <li>Team Building Leadership</li>
-                                        <li>Assessment Report Analysis</li>
-                                    </ul>
-                                    <div className="path" />
+                                    <h3>Our vision & moto.</h3>
+                                    <p>
+                                        To be a trusted global IT partner known for innovation, reliability, and delivering transformative solutions that drive long-term success across diverse industries.
+                                    </p>
                                 </div>
                             </div>
                             <div className="col-xl-8 col-lg-7 feature-style-one-content text-light">
@@ -37,7 +33,7 @@ const FeatureV1 = () => {
                                         <div className="info">
                                             <h4>Approach</h4>
                                             <p>
-                                                Continued at necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet her.
+                                                We take a hands-on, research-driven approach to IT, embedding ourselves in your daily operations to solve real-world challenges with precision.
                                             </p>
                                         </div>
                                     </div>
@@ -47,9 +43,9 @@ const FeatureV1 = () => {
                                             <img src="/assets/img/icon/2.png" alt="Image Not Found" />
                                         </div>
                                         <div className="info">
-                                            <h4>Information</h4>
+                                            <h4>Mission</h4>
                                             <p>
-                                                Continued at necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet her.
+                                                To deliver custom IT solutions that address unique business needs, helping clients stay ahead of industry trends with powerful, future-ready systems and support.
                                             </p>
                                         </div>
                                     </div>
@@ -61,7 +57,7 @@ const FeatureV1 = () => {
                                         <div className="info">
                                             <h4>Goal</h4>
                                             <p>
-                                                Continued at necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet her.
+                                                Our goal is to align the right technologies with business growth, ensuring systems scale smoothly. We design, upgrade, & adapt IT infrastructures that support youto expand & evolve.
                                             </p>
                                         </div>
                                     </div>

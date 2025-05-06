@@ -32,7 +32,7 @@ const ServicesV1 = () => {
 
     return (
         <>
-            <div className="services-style-one-area default-padding" style={{ background: 'url(/assets/img/shape/12.png)' }}>
+            <div className="services-style-one-area default-padding"> {/* style={{ background: 'url(/assets/img/shape/12.png)' }} */}
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">

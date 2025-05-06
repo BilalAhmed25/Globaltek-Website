@@ -2,25 +2,33 @@
     {
         "id": 1,
         "icon": "5.png",
-        "titleFirst": "Cybersecurity &",
-        "titleLast": "Compliance",
-        "text": "Advanced Threat Detection & Response. Data Encryption & Security Audits. Compliance with GDPR, HIPAA, PCI-DSS, and Local Regulations",
+        "titleFirst": "Hardware Services",
+        "titleLast": "",
+        "text": "If your hardware isn't working, your business can't work either. We'll help you build. the right infrastructure.",
         "counts": "01"
     },
     {
         "id": 2,
         "icon": "6.png",
-        "titleFirst": "IT Infrastructure &",
-        "titleLast": "Cloud Solutions",
-        "text": "Cloud Migrations &amp; Hybrid Environments ✔ Server &amp; Network Infrastructure Optimization ✔ Disaster Recovery &amp; High Availability Solutions",
+        "titleFirst": "Software Services",
+        "titleLast": "",
+        "text": "Keep your business productive with proactive IT consulting that helps you grow in efficiently and effectively.",
         "counts": "02"
     },
     {
         "id": 3,
         "icon": "7.png",
-        "titleFirst": "Managed IT Services &",
-        "titleLast": "24/7 Support",
-        "text": "Remote &amp; On-Site IT Support ✔ IT Asset Management &amp; Monitoring ✔ Help Desk &amp; Technical Support Services",
+        "titleFirst": "Cloud Services",
+        "titleLast": "",
+        "text": "With the right IT tools and business solutions, you can complete your tasks and achieve your goals.",
         "counts": "03"
+    },
+    {
+        "id": 4,
+        "icon": "7.png",
+        "titleFirst": "Globally Managed Services",
+        "titleLast": "",
+        "text": "GlobalTek helps global enterprises with multiple locations in different countries to optimize procurement of IT solutions.",
+        "counts": "04"
     }
 ]

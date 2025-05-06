@@ -32,23 +32,23 @@ const WhyChooseV1 = () => {
                             <div className="process-style-one">
                                 <div className="process-style-one-item">
                                     <span>01</span>
-                                    <h4>Information Collection</h4>
+                                    <h4>Expertise</h4>
                                     <p>
-                                        Excuse Deal say over contain performance from comparison new melancholy themselves.
+                                        Backed by deep industry knowledge and engineering excellence, our team delivers dependable, cutting-edge IT systems that solve complex business challenges efficiently.
                                     </p>
                                 </div>
                                 <div className="process-style-one-item">
                                     <span>02</span>
-                                    <h4>Projection Report Analysis</h4>
+                                    <h4>Industries Served</h4>
                                     <p>
-                                        Excuse Deal say over contain performance from comparison new melancholy themselves.
+                                        Our expertise spans multiple sectors, including finance, healthcare, logistics, energy, and manufacturing, allowing us to craft targeted solutions for every industry.
                                     </p>
                                 </div>
                                 <div className="process-style-one-item">
                                     <span>03</span>
-                                    <h4>Consultation Solution</h4>
+                                    <h4>Support</h4>
                                     <p>
-                                        Excuse Deal say over contain performance from comparison new melancholy themselves.
+                                        With a dedicated team and flexible fulfillment options, we ensure fast, responsive service that keeps your operations running smoothly, no matter the scale or complexity.
                                     </p>
                                 </div>
                             </div>

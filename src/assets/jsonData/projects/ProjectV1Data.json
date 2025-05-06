@@ -2,8 +2,8 @@
     {
         "id": 1,
         "accordionId": "headingOne",
-        "title": "Strategy",
-        "subtitle": "Digital business planning",
+        "title": "01",
+        "subtitle": "Efficient Data Center",
         "collapseId": "collapseOne",
         "expanded": true,
         "image": "5.jpg"
@@ -11,8 +11,8 @@
     {
         "id": 2,
         "accordionId": "headingTwo",
-        "title": "Partnership",
-        "subtitle": "Business program management",
+        "title": "02",
+        "subtitle": "Leading source for IT",
         "collapseId": "collapseTwo",
         "expanded": false,
         "image": "6.jpg"
@@ -20,8 +20,8 @@
     {
         "id": 3,
         "accordionId": "headingThree",
-        "title": "Branding",
-        "subtitle": "Strategy development",
+        "title": "03",
+        "subtitle": "Ensure successful results",
         "collapseId": "collapseThree",
         "expanded": false,
         "image": "7.jpg"

@@ -27,7 +27,7 @@ const SingleProjectV1 = ({ project }) => {
                 <div className="accordion-body">
                     <div className="portfolio-style-one-thumb">
                         <img src={`/assets/img/portfolio/${image}`} alt="Image Not Found" />
-                        <Link to={`/project-details/${id}`}>
+                        <Link to={`#`}> {/* /project-details/${id} */}
                             <i className="fas fa-link" />
                         </Link>
                     </div>

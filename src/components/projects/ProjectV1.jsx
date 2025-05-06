@@ -10,13 +10,13 @@ const ProjectV1 = () => {
                     <div className="row">
                         <div className="col-lg-5 pr-60 pr-md-15 pr-xs-15">
                             <div className="project-style-one-info bg-cover text-light" style={{ backgroundImage: 'url(/assets/img/shape/1.jpg)' }}>
-                                <h3>Have a view of our amazing projects with our clients</h3>
+                                <h3>Ensure successful completion of IT projects.</h3>
                                 <p>
-                                    We’re a creative branding and communications company of creative thinkers, strategists, digital innovators, for your company
+                                    From infrastructure design and upgrades to hardware procurement and virtualization—tailored to match your business needs and industry demands.
                                 </p>
                                 <ul className="list-style-two mt-20">
                                     <li>Satisfaction guarantee</li>
-                                    <li>Ontime delivery</li>
+                                    <li>End-user computing</li>
                                 </ul>
                                 <Link className="btn-style-two" to="/project"><i className="fas fa-arrow-right" /></Link>
                             </div>
