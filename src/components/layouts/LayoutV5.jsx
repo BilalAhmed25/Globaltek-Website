@@ -1,4 +1,4 @@
-import FooterV1 from '../footer/FooterV1';
+import FooterV1 from '../footer/FooterV2';
 import HeaderV5 from '../header/HeaderV5';
 import BreadCrumb from '../breadCrumb/BreadCrumb';
 
