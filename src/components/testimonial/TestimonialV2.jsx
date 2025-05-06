@@ -3,6 +3,7 @@ import { Keyboard, Autoplay, Pagination, Navigation } from 'swiper/modules';
 import team1 from "/assets/img/team/v1.jpg"
 import team2 from "/assets/img/team/v2.jpg"
 import quote from "/assets/img/quote.png"
+import blankProfile from "/assets/img/blank-profile-picture-png.webp"
 
 const TestimonialV2 = ({ sectionClass }) => {
 
@@ -57,13 +58,13 @@ const TestimonialV2 = ({ sectionClass }) => {
                                         <div className="testimonial-style-two">
                                             <div className="item">
                                                 <div className="text-info">
-                                                    <p>
-                                                        “Targeting consultation apartments. ndulgence creative under folly death wrote cause her way spite. Plan upon yet way get cold spot its week.
+                                                    <p style={{ fontSize: '18px' }}>
+                                                    GlobalTek transformed our outdated systems with seamless upgrades and reliable support. Their team truly understands how to align tech with business goals.
                                                     </p>
                                                 </div>
                                                 <div className="content">
                                                     <div className="thumb">
-                                                        <img src={team1} alt="Image Not Found" />
+                                                        <img src={blankProfile} alt="Image Not Found" />
                                                     </div>
                                                     <div className="info">
                                                         <h4>Matthew J. Wyman</h4>
@@ -78,13 +79,13 @@ const TestimonialV2 = ({ sectionClass }) => {
                                         <div className="testimonial-style-two">
                                             <div className="item">
                                                 <div className="text-info">
-                                                    <p>
-                                                        “Consultation discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week.
+                                                    <p style={{ fontSize: '18px' }}>
+                                                    We’ve partnered with many IT providers, but GlobalTek stands out for their proactive approach and industry-specific knowledge. A real game changer.
                                                     </p>
                                                 </div>
                                                 <div className="content">
                                                     <div className="thumb">
-                                                        <img src={team2} alt="Image Not Found" />
+                                                        <img src={blankProfile} alt="Image Not Found" />
                                                     </div>
                                                     <div className="info">
                                                         <h4>Anthom Bu Spar</h4>
@@ -99,13 +100,13 @@ const TestimonialV2 = ({ sectionClass }) => {
                                         <div className="testimonial-style-two">
                                             <div className="item">
                                                 <div className="text-info">
-                                                    <p>
-                                                        “Targeting consultation apartments. ndulgence creative under folly death wrote cause her way spite. Plan upon yet way get cold spot its week.
+                                                    <p style={{ fontSize: '18px' }}>
+                                                    The solutions GlobalTek delivered helped streamline our daily operations. Their team is responsive, skilled, and always ahead of the curve.
                                                     </p>
                                                 </div>
                                                 <div className="content">
                                                     <div className="thumb">
-                                                        <img src={team1} alt="Image Not Found" />
+                                                        <img src={blankProfile} alt="Image Not Found" />
                                                     </div>
                                                     <div className="info">
                                                         <h4>Matthew J. Wyman</h4>
@@ -120,13 +121,13 @@ const TestimonialV2 = ({ sectionClass }) => {
                                         <div className="testimonial-style-two">
                                             <div className="item">
                                                 <div className="text-info">
-                                                    <p>
-                                                        “Consultation discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week.
+                                                    <p style={{ fontSize: '18px' }}>
+                                                    From planning to execution, GlobalTek was with us every step. Their custom IT strategy boosted our efficiency and cut downtime significantly.
                                                     </p>
                                                 </div>
                                                 <div className="content">
                                                     <div className="thumb">
-                                                        <img src={team2} alt="Image Not Found" />
+                                                        <img src={blankProfile} alt="Image Not Found" />
                                                     </div>
                                                     <div className="info">
                                                         <h4>Anthom Bu Spar</h4>

@@ -16,7 +16,7 @@ const ContactUsV1 = () => {
                                 <h4 className="sub-title">Have Questions?</h4>
                                 <h2>Contact Information</h2>
                                 <p>
-                                    Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing.
+                                    Have questions or need expert IT guidance? Our team is here to help. Reach out and discover how GlobalTek can support your business goals with the right technology.
                                 </p>
                                 <ul>
                                     <Animation className='animate__animated animate__fadeInUp' delay='100ms'>
@@ -26,7 +26,7 @@ const ContactUsV1 = () => {
                                             </div>
                                             <div className="content">
                                                 <h5 className="title">Hotline</h5>
-                                                <a href="tel:+4733378901">+4733378901</a>
+                                                <a href="tel:+19543683944">+1 954 368 3944</a>
                                             </div>
                                         </li>
                                     </Animation>
@@ -39,7 +39,8 @@ const ContactUsV1 = () => {
                                             <div className="info">
                                                 <h5 className="title">Our Location</h5>
                                                 <p>
-                                                    55 Main Street, The Grand Avenue 2nd Block, <br /> New York City
+                                                    3471 North Federal Highway<br />
+                                                    Suite 305 – Fort Lauderdale, FL 33306
                                                 </p>
                                             </div>
                                         </li>
@@ -52,7 +53,7 @@ const ContactUsV1 = () => {
                                             </div>
                                             <div className="info">
                                                 <h5 className="title">Official Email</h5>
-                                                <a href="mailto:info@agrul.com.com">info@gixus.com</a>
+                                                <a href="mailto:directsales@globaltekinternational.com">directsales@globaltekinternational.com</a>
                                             </div>
                                         </li>
                                     </Animation>
