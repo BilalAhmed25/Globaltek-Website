@@ -20,10 +20,10 @@ const HeaderV1 = () => {
                                 <i className="fa fa-bars" />
                             </button>
                             <Link className="navbar-brand" to="/">
-                                <img src={logo} className="logo" alt="Logo" style={{ width: '170px', height: '60px' }} />
+                                <img src={logo} className="logo" alt="Logo" style={{ maxWidth: '250px', height: 'auto' }} />
                             </Link>
                         </div>
-                        <div className={`collapse navbar-collapse ${isOpen ? "show collapse-mobile" : "collapse-mobile"}`} id="navbar-menu">
+                        <div className={`collapse navbar-collapse ${isOpen ? "show collapse-mobile" : "collapse-mobile"}`} id="navbar-menu" style={{ flexGrow: 1}}>
                             <img src={logo} alt="Logo" />
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={closeMenu}>
                                 <i className="fa fa-times" />
@@ -34,7 +34,7 @@ const HeaderV1 = () => {
                             <div className="attr-nav">
                                 <ul>
                                     <li className="button">
-                                        <Link to="/contact-us">Get consultant</Link>
+                                        <Link className="btn btn-md circle btn-gradient animation" style={{ fontWeight: '500' }} to="/contact-us">Get consultation</Link>
                                     </li>
                                 </ul>
                             </div>

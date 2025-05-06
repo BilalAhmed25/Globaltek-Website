@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
     return (
         <>
-            <ul className={`nav navbar-nav ${navbarPlacement}`} data-in="fadeInDown" data-out="fadeOutUp">
+            <ul className={`nav navbar-nav ${navbarPlacement}`} data-in="fadeInDown" data-out="fadeOutUp" style={{ float: 'right' }}>
                 <li><Link to="/">home</Link></li>
                 <li><Link to="/about-us">about</Link></li>
                 <li className="dropdown">

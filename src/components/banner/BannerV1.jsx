@@ -44,12 +44,12 @@ const BannerV1 = () => {
                                         </Animation>
                                         <div className="strategy">
                                             <Animation className='animate__animated animate__fadeInLeft' delay='800ms'>
-                                                <div className="item">
+                                                <div className="item" style={{ padding: "10px" }}>
                                                     <div className="icon">
                                                         <i className="fas fa-chart-pie" />
                                                     </div>
                                                     <div className="info">
-                                                        <p><strong style={{ marginBottom: '-12px' }}>86%</strong> Business Growth</p>
+                                                        <p><strong style={{ marginBottom: '-12px' }}>86%</strong> Business rowth with Globaltek</p>
                                                     </div>
                                                 </div>
                                             </Animation>

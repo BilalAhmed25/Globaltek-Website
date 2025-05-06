@@ -14,7 +14,7 @@ const FooterV2 = () => {
                                 <div className="f-item address">
                                     <img src={logo} alt="Image Not Found" />
                                     <p>
-                                        Excellence decisively nay man twins impression maximum contrasted remarkably is perfect.
+                                        Delivering custom IT solutions that address business needs, helping clients stay ahead of industry.
                                     </p>
                                     <ul className="footer-social">
                                         <SocialShare />
