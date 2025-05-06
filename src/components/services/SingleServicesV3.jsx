@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 
-const SingleServicesV3 = ({ service }) => {
+const SingleServicesV3 = ({ service, type }) => {
     const { id, image, title, description, tags } = service
-
     return (
         <div className="services-style-three-item">
             <div className="item-title">
