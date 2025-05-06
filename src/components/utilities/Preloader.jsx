@@ -1,8 +1,8 @@
-const Preloader = () => {
+const Preloader = ({ isVisible }) => {
     return (
         <>
             <div id="preloader">
-                <div id="gixus-preloader" className="gixus-preloader">
+                <div id="gixus-preloader" className={`gixus-preloader ${isVisible ? "" : "fade-out"}`} >
                     <div className="animation-preloader">
                         <div className="spinner" />
                         <div className="txt-loading">
@@ -52,7 +52,7 @@ const Preloader = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
         </>
     );
 };

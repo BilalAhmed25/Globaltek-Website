@@ -36,14 +36,10 @@ function App() {
 
   return (
     <>
-      {isLoading ? <Preloader /> :
-        <>
-          <Routers />
-          <RoutesScrollToTop />
-          <Dependency />
-          <ToastContainer />
-        </>
-      }
+      <Preloader isVisible={isLoading} /><Routers />
+      <RoutesScrollToTop />
+      <Dependency />
+      <ToastContainer />
     </>
   )
 }
