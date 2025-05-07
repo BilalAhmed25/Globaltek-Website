@@ -18,19 +18,84 @@ const ServicesDetailsContent = ({ serviceInfo }) => {
         },
         {
             key: 'software',
-            title: 'Hardware Services',
-            image: '',
+            title: 'Software Services',
+            image: '/assets/img/banner/software.avif',
+            details: `  Lack of monitoring can compromise important data and hamper your company’s productivity. With that in mind, the Network Operation Center (NOC) tracks your environment in real time, 24 hours a day.
+                        This allows us to visualize the situation of each device and service, such as servers, routers, gateways, firewall, switch and UPS, among others. With the tools offered by Globaltek, it is possible to prevent occurrences quickly and efficiently, as well as to detect and correct possible problems in the software or hardware devices.
+                        Monitoring the environment can be proactive when, through capacity management, we analyze trends and propose solutions – or reactive – when identifying alarm in IT assets. The service is also responsible for resolving incidents in Data Center and infrastructure environments.`
+        },
+        {
+            key: 'cloud',
+            title: 'Cloud Services',
+            image: '/assets/img/banner/cloud.webp',
             details: `  Lack of monitoring can compromise important data and hamper your company’s productivity. With that in mind, the Network Operation Center (NOC) tracks your environment in real time, 24 hours a day.
                         This allows us to visualize the situation of each device and service, such as servers, routers, gateways, firewall, switch and UPS, among others. With the tools offered by Globaltek, it is possible to prevent occurrences quickly and efficiently, as well as to detect and correct possible problems in the software or hardware devices.
                         Monitoring the environment can be proactive when, through capacity management, we analyze trends and propose solutions – or reactive – when identifying alarm in IT assets. The service is also responsible for resolving incidents in Data Center and infrastructure environments.`
         },
         {
             key: 'globally-managed',
-            title: 'Hardware Services',
-            image: '',
-            details: `  Lack of monitoring can compromise important data and hamper your company’s productivity. With that in mind, the Network Operation Center (NOC) tracks your environment in real time, 24 hours a day.
-                        This allows us to visualize the situation of each device and service, such as servers, routers, gateways, firewall, switch and UPS, among others. With the tools offered by Globaltek, it is possible to prevent occurrences quickly and efficiently, as well as to detect and correct possible problems in the software or hardware devices.
-                        Monitoring the environment can be proactive when, through capacity management, we analyze trends and propose solutions – or reactive – when identifying alarm in IT assets. The service is also responsible for resolving incidents in Data Center and infrastructure environments.`
+            title: 'Globally Managed Services',
+            image: '/assets/img/banner/globally-managed.png',
+            details: (
+                <>
+                    <p>
+                        GlobalTek helps global enterprises with multiple locations in different countries to optimize procurement of IT solutions and services worldwide.
+                        <ul className="list-style-three text-muted">
+                            <li>
+                                Own branch offices in 15 countries.
+                            </li>
+                            <li>
+                                Global strategic partnerships.
+                            </li>
+                            <li>
+                                International alliances with IT companies.
+                            </li>
+                        </ul>
+                        <br />
+                        Alliances with large international IT service providers enable GlobalTek to serve global customers with operations in many countries helping them to optimize procurement of IT products and solutions worldwide.
+                        <br />
+                        GlobalTek is a global IT solutions provider for your clients, partners, and business.
+                    </p>
+                    <p>
+                        Managed services let you maintain peak IT operation with predictable costs that fit within your budget. When we manage all your IT services, you’re freed up to focus on growing your business with no worries about your network going down. Ask us about customized packages designed to meet your company’s unique IT needs.
+                    </p>
+                    <div className='row'>
+                        <div className='col-md-6'>
+                            <h5 style={{ marginBottom: '10px' }}>
+                                Unified Communications and Collaboration Solutions
+                            </h5>
+                            <p>
+                                Next-gen communications and collaboration solutions move your business into the future. Learn how you can take advantage of personal communication systems and increase internal efficiency with industry-leading collaboration tools.
+                            </p>
+
+                        </div>
+                        <div className='col-md-6'>
+                            <h5 style={{ marginBottom: '10px' }}>
+                                Network Infrastructure Solutions
+                            </h5>
+                            <p>
+                                All your apps and business processes depend on a robust and reliable IT infrastructure. We can design, implement and manage your IT infrastructure across your global locations, whether you’re in need of automation, retail location modernization, or any other operational services.
+                            </p>
+                        </div>
+                        <div className='col-md-6'>
+                            <h5 style={{ marginBottom: '10px' }}>
+                                Network Security Solutions
+                            </h5>
+                            <p>
+                                If your data and network aren’t secure, your business is in danger. We provide multiple solutions to protect your networks, data center, endpoints, and cloud infrastructure against any and all attacks.
+                            </p>
+                        </div>
+                        <div className='col-md-6'>
+                            <h5 style={{ marginBottom: '10px' }}>
+                                CompleteCare Managed Services
+                            </h5>
+                            <p>
+                                Do you want to never have to think about your IT? Then CompleteCare managed services may be right for you. We minimize downtime through our comprehensive management of your IT — hardware and software, processes and operations — all for a fixed monthly fee that provides you with 24/7 support, security, and productivity.
+                            </p>
+                        </div>
+                    </div>
+                </>
+            )
         },
     ]
     const { title } = serviceInfo
