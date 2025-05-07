@@ -4,7 +4,7 @@ import SingleServicesV3 from "./SingleServicesV3";
 const ServicesV3 = () => {
     return (
         <>
-            <div className="services-style-three-area default-padding bottom-less bg-gray-secondary bg-cover" style={{ backgroundImage: 'url(/assets/img/shape/24.png)' }}>
+            <div className="services-style-three-area default-padding bottom-less bg-gray-secondary bg-cover" style={{ backgroundImage: 'url(/assets/img/shape/4.jpg)', backgroundBlendMode: 'overlay' }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
@@ -24,7 +24,7 @@ const ServicesV3 = () => {
                         )}
                     </div>
                 </div>
-            </div>
+            </div >
         </>
     );
 };

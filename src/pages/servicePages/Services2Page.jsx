@@ -6,6 +6,7 @@ import SpecialityV1 from '@/components/speciality/SpecialityV1';
 import TeamV2 from '@/components/team/TeamV2';
 import TestimonialV1 from '@/components/testimonial/TestimonialV1';
 
+import AboutV1 from '@/components/about/AboutV1';
 const Services2Page = () => {
     return (
         <>

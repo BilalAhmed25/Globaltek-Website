@@ -62,8 +62,8 @@ const Routers = () => {
                 <Route path='/project-3' element={<Project3Page />}></Route>
                 <Route path='/project-details/:id' element={<ProjectDetailsPage />}></Route>
 
-                <Route path='/services' element={< ServicesPage />}></Route>
-                <Route path='/services-2' element={<Services2Page />}></Route>
+                <Route path='/services' element={<Services2Page />}></Route>
+                <Route path='/services-2' element={< ServicesPage />}></Route>
                 <Route path='/services-3' element={<Services3Page />}></Route>
 
                 <Route path='/services-details/:id' element={<ServicesDetailsPage />}></Route>
