@@ -2,6 +2,7 @@ import { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 import about1 from "/assets/img/about/1.jpg"
 import icon4 from "/assets/img/icon/4.png"
+import bbbTrustLogo from "/assets/img/about/bbb-trust-logo.jpg"
 import { Link } from 'react-router-dom';
 
 const AboutV1 = ({ sectionClass }) => {
@@ -38,8 +39,9 @@ const AboutV1 = ({ sectionClass }) => {
                                     </div>
                                     <ul className="card-list">
                                         <li>
-                                            <img src={icon4} alt="Image Not Found" />
-                                            <h5>Award Winning Company</h5>
+                                            {/* <img src={icon4} alt="Image Not Found" /> */}
+                                            <img src={bbbTrustLogo} alt="Image Not Found" draggable="false" style={{ width: '240px', height: '70px' }} />
+                                            {/* <h5>Award Winning Company</h5> */}
                                         </li>
                                         <li>
                                             <h2>3.8x</h2>
