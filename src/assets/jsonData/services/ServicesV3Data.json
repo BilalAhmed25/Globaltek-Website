@@ -4,27 +4,43 @@
         "title": "Hardware Services",
         "description": "If your hardware isn't working, your business can't work either. We'll help you build. the right infrastructure.",
         "image": "16.png",
-        "tags": ["Management", "Backup"]
+        "tags": [
+            "Management",
+            "Backup"
+        ],
+        "path": "hardware-services"
     },
     {
         "id": 2,
         "title": "Software Services",
         "description": "Keep your business productive with proactive IT consulting that helps you grow in efficiently and effectively.",
         "image": "17.png",
-        "tags": ["Hardware", "Error"]
+        "tags": [
+            "Hardware",
+            "Error"
+        ],
+        "path": "software-services"
     },
     {
         "id": 3,
         "title": "Cloud Services",
         "description": "With the right IT tools and business solutions, you can complete your tasks and achieve your goals.",
         "image": "18.png",
-        "tags": ["Network", "Firewall"]
+        "tags": [
+            "Network",
+            "Firewall"
+        ],
+        "path": "cloud-services"
     },
     {
         "id": 4,
         "title": "Globally Managed Services",
         "description": "GlobalTek helps global enterprises with multiple locations in different countries to optimize procurement of IT solutions.",
         "image": "18.png",
-        "tags": ["Network", "Firewall"]
+        "tags": [
+            "Network",
+            "Firewall"
+        ],
+        "path": "globally-managed-hardware-services"
     }
 ]

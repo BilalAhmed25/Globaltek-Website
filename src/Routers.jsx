@@ -43,6 +43,10 @@ const Routers = () => {
                 <Route path='/careers' element={<ProjectPage />}></Route>
                 <Route path='/contact-us' element={<ContactUsPage />}></Route>
                 <Route path='/partners' element={<PartnersPage />}></Route>
+                <Route path='/hardware-services' element={<ServicesDetailsPage serviceType={"hardware"} />}></Route>
+                <Route path='/software-services' element={<ServicesDetailsPage serviceType={"software"} />}></Route>
+                <Route path='/cloud-services' element={<ServicesDetailsPage serviceType={"cloud"} />}></Route>
+                <Route path='/globally-managed-services' element={<ServicesDetailsPage serviceType={"globally-managed"} />}></Route>
 
 
                 <Route path='/home-2' element={<Home2 />}></Route>

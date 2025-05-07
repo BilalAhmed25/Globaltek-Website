@@ -1,14 +1,43 @@
 import { useState } from 'react';
 import banner21 from "/assets/img/banner/21.jpg"
+import hardware from "/assets/img/banner/hardware.jpg"
 import about1 from "/assets/img/about/1.jpg"
 import icon4 from "/assets/img/icon/4.png"
 import ModalVideo from 'react-modal-video';
 import { Link } from 'react-router-dom';
 
 const ServicesDetailsContent = ({ serviceInfo }) => {
-    const { title } = serviceInfo
+    if (!serviceInfo) return null;
 
+    const details = [
+        {
+            key: 'hardware',
+            title: 'Hardware Services',
+            image: '/assets/img/banner/hardware.jpg',
+            details: `  Lack of monitoring can compromise important data and hamper your company’s productivity. With that in mind, the Network Operation Center (NOC) tracks your environment in real time, 24 hours a day.
+                        This allows us to visualize the situation of each device and service, such as servers, routers, gateways, firewall, switch and UPS, among others. With the tools offered by Globaltek, it is possible to prevent occurrences quickly and efficiently, as well as to detect and correct possible problems in the software or hardware devices.
+                        Monitoring the environment can be proactive when, through capacity management, we analyze trends and propose solutions – or reactive – when identifying alarm in IT assets. The service is also responsible for resolving incidents in Data Center and infrastructure environments.`
+        },
+        {
+            key: 'software',
+            title: 'Hardware Services',
+            image: '',
+            details: `  Lack of monitoring can compromise important data and hamper your company’s productivity. With that in mind, the Network Operation Center (NOC) tracks your environment in real time, 24 hours a day.
+                        This allows us to visualize the situation of each device and service, such as servers, routers, gateways, firewall, switch and UPS, among others. With the tools offered by Globaltek, it is possible to prevent occurrences quickly and efficiently, as well as to detect and correct possible problems in the software or hardware devices.
+                        Monitoring the environment can be proactive when, through capacity management, we analyze trends and propose solutions – or reactive – when identifying alarm in IT assets. The service is also responsible for resolving incidents in Data Center and infrastructure environments.`
+        },
+        {
+            key: 'globally-managed',
+            title: 'Hardware Services',
+            image: '',
+            details: `  Lack of monitoring can compromise important data and hamper your company’s productivity. With that in mind, the Network Operation Center (NOC) tracks your environment in real time, 24 hours a day.
+                        This allows us to visualize the situation of each device and service, such as servers, routers, gateways, firewall, switch and UPS, among others. With the tools offered by Globaltek, it is possible to prevent occurrences quickly and efficiently, as well as to detect and correct possible problems in the software or hardware devices.
+                        Monitoring the environment can be proactive when, through capacity management, we analyze trends and propose solutions – or reactive – when identifying alarm in IT assets. The service is also responsible for resolving incidents in Data Center and infrastructure environments.`
+        },
+    ]
+    const { title } = serviceInfo
     const [isOpen, setOpen] = useState(false);
+    const selectedDetail = details.find(item => item.key === serviceInfo);
 
     return (
         <>
@@ -18,7 +47,7 @@ const ServicesDetailsContent = ({ serviceInfo }) => {
                         <div className="col-lg-10 offset-lg-1">
                             <div className="site-heading text-center">
                                 <h4 className="sub-title">Service Details</h4>
-                                <h2 className="title">Best influencer marketing services</h2>
+                                <h2 className="title">{selectedDetail.title}</h2>
                             </div>
                         </div>
                     </div>
@@ -28,10 +57,10 @@ const ServicesDetailsContent = ({ serviceInfo }) => {
                         <div className="row">
                             <div className="col-xl-12 services-single-content">
                                 <div className="thumb mb-50">
-                                    <img src={banner21} alt="Thumb" />
+                                    <img src={selectedDetail.image} alt="Thumb" draggable={false} style={{ width: '100%', height: '350px' }} />
                                 </div>
                                 <p>
-                                    We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue cannot foresee. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled data structures manages data in technology. New had happen unable uneasy. Drawings can followed improved out sociable not. Earnestly so do instantly pretended. See general few civilly amiable pleased account carried. Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son themselves.
+                                    {selectedDetail.details}
                                 </p>
                                 <div className="process-style-one-items mt-50">
                                     <div className="choose-us-one-thumb">

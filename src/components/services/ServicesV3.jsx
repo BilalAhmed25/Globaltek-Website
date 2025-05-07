@@ -19,7 +19,7 @@ const ServicesV3 = () => {
                     <div className="row">
                         {ServicesV3Data.map(service =>
                             <div className="col-xl-4 col-lg-6 col-md-6 mb-30" key={service.id}>
-                                <SingleServicesV3 service={service} key={service.id} />
+                                <SingleServicesV3 service={service} key={service.id} path={service.path} />
                             </div>
                         )}
                     </div>

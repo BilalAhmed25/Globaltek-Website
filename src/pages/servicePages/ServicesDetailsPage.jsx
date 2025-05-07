@@ -3,7 +3,7 @@ import ServicesDetailsContent from '@/components/services/ServicesDetailsContent
 import { useParams } from 'react-router-dom';
 import ServicesV2Data from "@/assets/jsonData/services/ServicesV2Data.json"
 
-const ServicesDetailsPage = () => {
+const ServicesDetailsPage = ({ serviceType }) => {
 
     const { id } = useParams()
     const data = ServicesV2Data.find(service => service.id === parseInt(id))
@@ -11,7 +11,7 @@ const ServicesDetailsPage = () => {
     return (
         <>
             <LayoutV5>
-                <ServicesDetailsContent serviceInfo={data} />
+                <ServicesDetailsContent serviceInfo={serviceType} />
             </LayoutV5>
         </>
     );
