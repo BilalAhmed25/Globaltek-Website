@@ -14,7 +14,8 @@ const HeaderV5 = () => {
     return (
         <>
             <header>
-                <nav className={`navbar mobile-sidenav navbar-common navbar-sticky navbar-default validnavs dark on menu-center no-full ${isMenuSticky ? 'sticked' : 'no-background'} ${isOpen ? "navbar-responsive" : ""}`}>
+                {/*navbar mobile-sidenav navbar-common navbar-sticky navbar-default validnavs              dark on menu-center no-full */}
+                <nav className={`navbar mobile-sidenav               navbar-sticky navbar-default validnavs navbar-fixed dark on menu-center no-full ${isMenuSticky ? 'sticked' : 'no-background'} ${isOpen ? "navbar-responsive" : ""}`}>
                     <div className="container d-flex justify-content-between align-items-center">
                         <div className="navbar-header">
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={openMenu}>

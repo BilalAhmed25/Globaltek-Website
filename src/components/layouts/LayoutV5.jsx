@@ -6,6 +6,7 @@ const LayoutV5 = ({ children, breadCrumb, title }) => {
     return (
         <>
             <HeaderV5 />
+            <div style={{ height: '70px' }}></div>
             {breadCrumb && <BreadCrumb breadCrumb={breadCrumb} title={title} />}
             {children}
             <FooterV1 />
