@@ -20,9 +20,54 @@ const ServicesDetailsContent = ({ serviceInfo }) => {
             key: 'software',
             title: 'Software Services',
             image: '/assets/img/banner/software.avif',
-            details: `  Lack of monitoring can compromise important data and hamper your company’s productivity. With that in mind, the Network Operation Center (NOC) tracks your environment in real time, 24 hours a day.
-                        This allows us to visualize the situation of each device and service, such as servers, routers, gateways, firewall, switch and UPS, among others. With the tools offered by Globaltek, it is possible to prevent occurrences quickly and efficiently, as well as to detect and correct possible problems in the software or hardware devices.
-                        Monitoring the environment can be proactive when, through capacity management, we analyze trends and propose solutions – or reactive – when identifying alarm in IT assets. The service is also responsible for resolving incidents in Data Center and infrastructure environments.`
+            details: (
+                <>
+                    <p>Keep your business productive with proactive IT consulting that helps you grow in efficiently and effectively. Get the most out of your IT budget while getting rid of IT downtime when you make sure your IT delivers what you want and need.</p>
+                    <div className='row'>
+                        <div className='col-md-6'>
+                            <h5 style={{ marginBottom: '10px' }}>
+                                Software Asset Management Services
+                            </h5>
+                            <p>
+                                Make smart decisions about software with our software asset management services. We can help you choose the right tools, analyze the software you’re already running, make sure you’re taking the best advantage of your licensing options, and reduce your overall costs.
+                            </p>
+
+                        </div>
+                        <div className='col-md-6'>
+                            <h5 style={{ marginBottom: '10px' }}>
+                                Software Licensing Management Solutions
+                            </h5>
+                            <p>
+                                Streamline your workflow and provide the best customer service when you choose the right software. We consult with you to choose the best products, handle licensing tasks and issues for you, and help you implement your solutions.
+                            </p>
+                        </div>
+                        <div className='col-md-12'>
+                            <h5 style={{ marginBottom: '10px' }}>
+                                Microsoft Exchange Deployment Services
+                            </h5>
+                            <p>
+                                Do you need Microsoft-based solutions? We’ll help you deploy Microsoft exchange deployment, handle all migration, and make sure you have what you need to implement your projects, workstations, and security.
+                            </p>
+                        </div>
+                        <div className='col-md-6'>
+                            <h5 style={{ marginBottom: '10px' }}>
+                                Microsoft SharePoint Implementation Services
+                            </h5>
+                            <p>
+                                Our end-to-end Microsoft SharePoint implementation services focus on scalability, security and performance, whether you need cloud migration assistance, upgrades, consulting, or ongoing management and monitoring. We make sure you have complete visibility into the project as well as full support.
+                            </p>
+                        </div>
+                        <div className='col-md-6'>
+                            <h5 style={{ marginBottom: '10px' }}>
+                                Information Technology Asset Disposition
+                            </h5>
+                            <p>
+                                You can’t just toss out IT assets when they become obsolete. The data that’s still recoverable on that hardware has to be protected or wiped securely, and you want to dispose of all electronics in a way that’s environmentally sustainable. We remove the risk from asset disposition, ensuring a secure chain of custody for your data and recycling your assets in a way that’s responsible and that gets you the maximum return on your investment.
+                            </p>
+                        </div>
+                    </div>
+                </>
+            )
         },
         {
             key: 'cloud',
