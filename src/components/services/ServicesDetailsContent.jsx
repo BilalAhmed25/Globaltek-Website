@@ -73,9 +73,73 @@ const ServicesDetailsContent = ({ serviceInfo }) => {
             key: 'cloud',
             title: 'Cloud Services',
             image: '/assets/img/banner/cloud.webp',
-            details: `  Lack of monitoring can compromise important data and hamper your company’s productivity. With that in mind, the Network Operation Center (NOC) tracks your environment in real time, 24 hours a day.
-                        This allows us to visualize the situation of each device and service, such as servers, routers, gateways, firewall, switch and UPS, among others. With the tools offered by Globaltek, it is possible to prevent occurrences quickly and efficiently, as well as to detect and correct possible problems in the software or hardware devices.
-                        Monitoring the environment can be proactive when, through capacity management, we analyze trends and propose solutions – or reactive – when identifying alarm in IT assets. The service is also responsible for resolving incidents in Data Center and infrastructure environments.`
+            details: (
+                <>
+                    <p>
+                        Have you ever considered centralizing your business in one place? Thus, any unforeseen can be corrected with agility, without compromising its operations and its productivity.
+                        <br />
+                        Service Desk makes this possible. Able to receive, record and classify your requests and incidents, this service is responsible for managing the entire cycle of the incident, ensuring its resolution and keeping users informed.
+                        <br />
+                        Globaltek’ Service Desk offers service and technical support for your company, focusing on the demands of hardware maintenance, remote support and software distribution.
+                    </p>
+                    <h5 style={{ marginBottom: '10px' }}>
+                        What we do:
+                    </h5>
+                    <ul className="list-style-three text-muted">
+                        <li>
+                            Receive, register and sort all requests
+                        </li>
+                        <li>
+                            Prioritize and escalate the registry
+                        </li>
+                        <li>
+                            Solve or route the record to solver groups
+                        </li>
+                        <li>
+                            Keep users informed about the status and progress of requests
+                        </li>
+                        <li>
+                            Management of incidents: analysis  of reasons for incidents and action plans to avoid them
+                        </li>
+                        <li>
+                            Generate information and recommendations for IT service improvement
+                        </li>
+                        <li>
+                            Contribute to problem identification
+                        </li>
+                    </ul>
+                    <p className='mt-3'>
+                        With the right IT tools and business solutions, you can complete your tasks and achieve your goals efficiently and smoothly. We find solutions to the most challenging business tech problems, setting up the technology you need to boost productivity and accelerate your performance overall. Whether you need websites, portals, business intelligence systems, e-commerce, data archiving or mobile apps, we’ll get you moving forward.
+                    </p>
+                    <div className='row'>
+                        <div className='col-md-6'>
+                            <h5 style={{ marginBottom: '10px' }}>
+                                Mobility and End-User Management Solutions
+                            </h5>
+                            <p>
+                                When your employees use mobile devices on the go, whether they’re using company-owned devices or their own, they inadvertently open up all kinds of security issues. Embedding mobile devices securely in your IT infrastructure is the key to fostering productivity without compromising safety. We’ll help you with the hardware as well as with establishing policies and controlling access for the utmost of protection.
+                            </p>
+
+                        </div>
+                        <div className='col-md-6'>
+                            <h5 style={{ marginBottom: '10px' }}>
+                                Virtualization and Cloud Solutions
+                            </h5>
+                            <p>
+                                Moving your data into the cloud allows you easy access from wherever you are all over the world. We’ll help you boost your capacity, increase your productivity, and find the solutions to your IT concerns with virtualization and cloud solutions. Our customized solutions take into account your business size, your existing infrastructure, and your unique needs.
+                            </p>
+                        </div>
+                        <div className='col-md-12'>
+                            <h5 style={{ marginBottom: '10px' }}>
+                                Technology Assessment Services
+                            </h5>
+                            <p>
+                                Are you spending your IT dollars in the best possible way? Our technology assessment services can help identify inefficiencies, redundancies and performance gaps to streamline your tech environment — and we’ll help you develop a plan of action to bring your IT up to speed.
+                            </p>
+                        </div>
+                    </div>
+                </>
+            )
         },
         {
             key: 'globally-managed',
