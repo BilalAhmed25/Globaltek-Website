@@ -13,7 +13,7 @@ const BannerV1 = () => {
                                 <div className="col-xl-6 col-lg-7 pr-50 pr-md-15 pr-xs-15">
                                     <div className="information">
                                         <div className="animation-shape">
-                                            <img src="/assets/img/shape/anim-2.png" alt="Image not found" />
+                                            <img src="/assets/img/shape/anim-2.png" alt="Image not found" draggable="false" />
                                         </div>
                                         {/* <Animation className='animate__animated animate__fadeInUp' delay='2000ms' duration="400ms">
                                             <h4>Business Advisor</h4>
@@ -40,7 +40,7 @@ const BannerV1 = () => {
                                 <div className="banner-one-thumb col-xl-6 col-lg-5 pl-60 pl-md-15 pl-xs-15">
                                     <div className="thumb">
                                         <Animation className='animate__animated animate__fadeInUp'>
-                                            <img src="/assets/img/thumb/1.png" alt="Thumb" />
+                                            <img src="/assets/img/thumb/1.png" alt="Thumb" draggable="false" />
                                         </Animation>
                                         <div className="strategy">
                                             <Animation className='animate__animated animate__fadeInLeft' delay='800ms'>
