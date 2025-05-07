@@ -16,7 +16,7 @@ const AboutV1 = ({ sectionClass }) => {
                         <div className="row">
                             <div className="col-xl-7 col-lg-6">
                                 <div className="thumb-style-one">
-                                    <img src={about1} alt="Image Not Found" draggable={false} />
+                                    <img src={about1} alt="Image Not Found" draggable="false" />
                                 </div>
                             </div>
                             <div className="col-xl-5 col-lg-6 pl-50 pl-md-15 pl-xs-15">
@@ -29,7 +29,7 @@ const AboutV1 = ({ sectionClass }) => {
                                     </div>
                                     <ul className="card-list">
                                         <li>
-                                            <img src={icon4} alt="Image Not Found" draggable={false} />
+                                            <img src={icon4} alt="Image Not Found" draggable="false" />
                                             <h5>Award Winning Company</h5>
                                         </li>
                                         <li>
