@@ -8,6 +8,7 @@ import Home5 from './pages/homePages/Home5';
 
 import AboutUsPage from './pages/innerPages/AboutUsPage';
 import AboutUs2Page from './pages/innerPages/AboutUs2Page';
+import PartnersPage from './pages/innerPages/PartnersPage';
 import TeamPage from './pages/innerPages/TeamPage';
 import Team2Page from './pages/innerPages/Team2Page';
 import TeamDetailsPage from './pages/innerPages/TeamDetailsPage';
@@ -41,6 +42,7 @@ const Routers = () => {
                 <Route path='/about-us' element={<AboutUsPage />}></Route>
                 <Route path='/careers' element={<ProjectPage />}></Route>
                 <Route path='/contact-us' element={<ContactUsPage />}></Route>
+                <Route path='/partners' element={<PartnersPage />}></Route>
 
 
                 <Route path='/home-2' element={<Home2 />}></Route>

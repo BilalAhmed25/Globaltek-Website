@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Autoplay, Pagination, Navigation } from 'swiper/modules';
-import brand11 from "/assets/img/brand/11.png"
-import brand22 from "/assets/img/brand/22.png"
-import brand55 from "/assets/img/brand/55.png"
+import brand11 from "/assets/img/brand/hp.png"
+import brand22 from "/assets/img/brand/dell.webp"
+import brand55 from "/assets/img/brand/lenovo.png"
 import brand66 from "/assets/img/brand/66.png"
 
 const PartnerV1 = () => {
@@ -27,7 +27,7 @@ const PartnerV1 = () => {
 
     return (
         <>
-            <div className="partner-style-one-area default-padding bg-dark text-light" style={{ backgroundImage: 'url(/assets/img/shape/25.png)' }}>
+            <div className="partner-style-one-area default-padding bg-light text-dark" style={{ paddingBottom: '20px' }}> {/*style={{ backgroundImage: 'url(/assets/img/shape/25.png)' }}*/}
                 <div className="container">
                     <div className="row align-center">
                         <div className="col-xl-4">
@@ -41,32 +41,21 @@ const PartnerV1 = () => {
                                     modules={[Keyboard, Autoplay, Pagination, Navigation]}
                                 >
                                     <div className="swiper-wrapper">
-
-                                        {/* Single Item */}
-                                        <SwiperSlide className="swiper-slide">
-                                            <div className="brand-one">
-                                                <img src={brand11} alt="Image Not Found" />
-                                            </div>
-                                        </SwiperSlide>
-                                        {/* Single Item */}
                                         <SwiperSlide className="swiper-slide">
                                             <div className="brand-one">
                                                 <img src={brand22} alt="Image Not Found" />
                                             </div>
                                         </SwiperSlide>
-                                        {/* Single Item */}
                                         <SwiperSlide className="swiper-slide">
                                             <div className="brand-one">
                                                 <img src={brand55} alt="Image Not Found" />
                                             </div>
                                         </SwiperSlide>
-                                        {/* Single Item */}
                                         <SwiperSlide className="swiper-slide">
                                             <div className="brand-one">
-                                                <img src={brand66} alt="Image Not Found" />
+                                                <img src={brand11} alt="Image Not Found" />
                                             </div>
                                         </SwiperSlide>
-
                                     </div>
                                 </Swiper>
                             </div>
